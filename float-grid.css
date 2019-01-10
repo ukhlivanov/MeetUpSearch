@@ -1,0 +1,213 @@
+/*Responsive design*/
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 2000px) {
+  .info, #map {
+    height: 785px;
+  }
+  #findButton {
+    margin-left: 10px;
+  }
+  .auth {
+    width: 20%;
+  }
+  .popup-overlay {
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+    width: 35%;
+    height: 25%;
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .info, #map {
+    height: 620px;
+  }
+  .info .info-text {
+    font-size: 25px;
+  }
+  .popup-overlay {
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+    width: 35%;
+    height: 25%;
+    left: 33%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  button, input[type=text] {
+    padding: 8px 15px;
+    font-size: 18px;
+  }
+  input[type=text] {
+    margin-left: 40px;
+  }
+  .navbar .form {
+    width: 63%;
+  }
+  .popup-overlay {
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+    width: 50%;
+    height: 35%;
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .info, #map {
+    height: 600px;
+  }
+  #map {
+    width: 74.5%;
+  }
+  .info {
+    font-size: 14px;
+  }
+  .navbar .form {
+    width: 65%;
+  }
+  input[type=text], #findButton {
+    margin-left: 45px;
+    width: 40%;
+    font-size: 16px;
+  }
+  #logIn, #signUp {
+    font-size: 16px;
+  }
+  .popup-overlay {
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+    width: 50%;
+    height: 25%;
+    left: 25%;
+  }
+  .close {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 851px) {
+  .info, #map {
+    height: 600px;
+  }
+  #map {
+    width: 74.5%;
+  }
+  .info {
+    font-size: 14px;
+  }
+  .navbar .form {
+    margin-left: 25px;
+    width: 60%;
+  }
+  input[type=text], #findButton {
+    width: 40%;
+  }
+  .popup-overlay {
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+    width: 50%;
+    height: 25%;
+    left: 24%;
+  }
+  .close {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #map, .info {
+    height: 520px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .navbar .form {
+    margin-left: 20px;
+    width: 55%;
+  }
+  input[type=text], #findButton {
+    width: 95%;
+    font-size: 14px;
+  }
+  #logIn, #signUp {
+    font-size: 14px;
+  }
+  input[type=text] {
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  #findButton {
+    margin-top: 20px;
+  }
+  .popup-overlay {
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+    width: 50%;
+    height: 30%;
+    left: 27%;
+  }
+  .close {
+    margin: 10px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar .logo {
+    width: 100%;
+  }
+  .navbar .form {
+    width: 100%;
+    margin: 0px 0px;
+  }
+  input[type=text] {
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  #findButton {
+    margin-bottom: 20px;
+  }
+  input[type=text], #findButton {
+    float: left;
+    width: 90%;
+    margin-left: 19px;
+  }
+  .auth {
+    float: none;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  #logIn, #signUp {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .popup-overlay {
+    font-size: 14px;
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+    width: 60%;
+    height: 30%;
+    left: 19%;
+  }
+}
