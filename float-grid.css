@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 2400px) {
   .info, #map {
     height: 800px;
   }
@@ -38,7 +38,7 @@
     background: #ffffff;
     border: 3px solid #666666;
     width: 35%;
-    height: 25%;
+    height: 35%;
     left: 33%;
   }
 }
@@ -46,7 +46,7 @@
 @media screen and (max-width: 1250px) {
   button, input[type=text] {
     padding: 8px 15px;
-    font-size: 18px;
+    font-size: 16px;
   }
   input[type=text] {
     margin-left: 40px;
