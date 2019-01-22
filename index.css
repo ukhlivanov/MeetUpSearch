@@ -135,7 +135,7 @@ button {
   float: left;
   width: 75%;
   box-sizing: border-box;
-  max-height: 790px;
+  height: 790px;
 }
 
 .info {
