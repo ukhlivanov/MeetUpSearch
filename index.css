@@ -146,7 +146,6 @@ button {
   box-sizing: border-box;
   width: 24.5%;
   height: 790px;
-  max-height: 790px;
   color: #811411;
   border: 3px solid #ccc;
   background-image: url('img/meet.jpg');
