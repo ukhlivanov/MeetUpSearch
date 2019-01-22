@@ -135,7 +135,7 @@ button {
   float: left;
   width: 75%;
   box-sizing: border-box;
-  height: 790px;
+  height: 890px;
 }
 
 .info {
@@ -145,7 +145,7 @@ button {
   display: block;
   box-sizing: border-box;
   width: 24.5%;
-  height: 790px;
+  height: 890px;
   color: #811411;
   border: 3px solid #ccc;
   background-image: url('img/meet.jpg');
