@@ -1,0 +1,13 @@
+{
+    "name": "meetup",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "Sergey Ukhlivanov",
+    "license": "ISC",
+    "devDependencies": {
+    },
+    "dependencies": {
+    }
+  }
+  
