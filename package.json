@@ -4,10 +4,6 @@
     "description": "",
     "main": "index.js",
     "author": "Sergey Ukhlivanov",
-    "license": "ISC",
-    "devDependencies": {
-    },
-    "dependencies": {
-    }
+    "license": "ISC"
   }
   
