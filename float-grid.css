@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 2500px) {
   .info, #map {
-    height: 785px;
+    height: auto;
   }
   #findButton {
     margin-left: 10px;
